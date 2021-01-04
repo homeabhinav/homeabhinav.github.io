@@ -1,5 +1,5 @@
 body{
-    background-image: url('https://drive.google.com/uc?id=1jXc2bPNdW6cRD77w4v1iy6tPT-VdTvZu');
+    background-image: url('sun.jpeg');
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -10,7 +10,7 @@ body{
     transition: 5s;
 } 
 body:hover{
-    background-image: url('https://drive.google.com/uc?id=1jGI_u8HFdfVmx0eKsT8XClUiEku3tGho');
+    background-image: url('sunn.jpeg');
     transition: 10s;
 }
 .container{
