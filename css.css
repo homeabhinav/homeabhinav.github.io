@@ -9,10 +9,6 @@ body{
     overflow: hidden;
     transition: 5s;
 } 
-body:hover{
-    background-image: url('sunn.jpeg');
-    transition: 10s;
-}
 .container{
     text-align: center;
     font-size: 30px;
