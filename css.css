@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     overflow: hidden;
     transition: 5s;
+    position:fixed;
 } 
 .container{
     text-align: center;
