@@ -1,0 +1,123 @@
+body{
+    background-image: url('https://drive.google.com/uc?id=1jXc2bPNdW6cRD77w4v1iy6tPT-VdTvZu');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    transition: 5s;
+} 
+body:hover{
+    background-image: url('https://drive.google.com/uc?id=1jGI_u8HFdfVmx0eKsT8XClUiEku3tGho');
+    transition: 10s;
+}
+.container{
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(223, 172, 114);
+    text-shadow: 5px 5px 3px rgb(0, 0, 0);
+}
+.sidebar{
+    display: flex;
+    justify-content: center;
+    
+}
+a{
+    display: flex;
+    height: 75px;
+    background: rgb(223, 172, 114);
+    width: 75px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),-6px -6px 10px -1px rgba(17, 17, 17, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: 0.5s;
+}
+a i{
+    font-size: 35px;
+    color: rgb(43, 41, 41);
+    transition: 0.5s;
+}
+a:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(17, 17, 17, 0.7),
+    -0.5px -0.5px 0px rgba(17, 17, 17, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+    0px 12px 10px -10px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transform: translateY(2px);
+}
+a:hover i{
+    transform: scale(0.90);
+}
+a:hover .fa-facebook{
+    color: #3b5998;
+}
+a:hover .fa-whatsapp{
+    color: #346e3b;
+}
+a:hover .fa-youtube{
+    color: #f00;
+}
+a:hover .fa-instagram{
+    color: #f14843;
+}
+.main{
+    color: rgb(139, 233, 233);
+    width: 600px;
+    height: 280px;
+    position: absolute;
+    font-size: 35px;
+    left: 15%;
+    top: 57%;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+#slider{
+ display: inline-flex;
+}
+.msg-col{
+    width: 600px;
+    height: 280px;
+}
+.msg-col h1{
+    color:rgb(68, 66, 58);
+    font-size: 50px;
+    font-weight: 100;
+    text-shadow: 5px 5px 5px rgb(228, 163, 88);
+    margin:10px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.msg-col a{
+    display: inline-block;
+    text-shadow: 1px 1px 2px  rgb(228, 163, 88);     
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(248, 247, 244);
+    background: rgb(48, 48, 45);
+    font-size: 25px;
+    padding: 1px 80px;
+    border-radius: 25px;
+    margin-top: 25px;
+
+}
+#load{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: 99999;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background:rgb(245, 245, 245) url('https://drive.google.com/uc?id=1T21i1wrg8x_0j8WuH9BPaH3ZT32c0ZVm') center;
+    background-repeat: no-repeat;
+
+}
+
+
