@@ -1,14 +1,13 @@
 body{
-    background-image: url('sun.jpeg');
+    background-image: url('https://drive.google.com/uc?id=1jXc2bPNdW6cRD77w4v1iy6tPT-VdTvZu');
     width: 100%;
     height: 100vh;
     background-position: center;
     background-size:cover;
-    position: relative;
     background-repeat: no-repeat;
     overflow: hidden;
     transition: 5s;
-    position:fixed;
+    position: fixed;
 } 
 .container{
     text-align: center;
@@ -20,6 +19,7 @@ body{
 .sidebar{
     display: flex;
     justify-content: center;
+    position: relative;
     
 }
 a{
@@ -65,45 +65,6 @@ a:hover .fa-youtube{
 a:hover .fa-instagram{
     color: #f14843;
 }
-.main{
-    color: rgb(139, 233, 233);
-    width: 600px;
-    height: 280px;
-    position: absolute;
-    font-size: 35px;
-    left: 15%;
-    top: 57%;
-    transform: translateY(-50%);
-    overflow: hidden;
-}
-#slider{
- display: inline-flex;
-}
-.msg-col{
-    width: 600px;
-    height: 280px;
-}
-.msg-col h1{
-    color:rgb(68, 66, 58);
-    font-size: 50px;
-    font-weight: 100;
-    text-shadow: 5px 5px 5px rgb(228, 163, 88);
-    margin:10px 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.msg-col a{
-    display: inline-block;
-    text-shadow: 1px 1px 2px  rgb(228, 163, 88);     
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(248, 247, 244);
-    background: rgb(48, 48, 45);
-    font-size: 25px;
-    padding: 1px 80px;
-    border-radius: 25px;
-    margin-top: 25px;
-
-}
 #load{
     width: 100%;
     position: fixed;
@@ -114,7 +75,14 @@ a:hover .fa-instagram{
     height: 100vh;
     background:rgb(245, 245, 245) url('https://drive.google.com/uc?id=1T21i1wrg8x_0j8WuH9BPaH3ZT32c0ZVm') center;
     background-repeat: no-repeat;
-
 }
-
+.games{
+    display: flex;
+    color: rgb(241, 175, 175);
+    text-shadow: 1px 2px 2px green;
+    font-family: cursive;
+    margin-top: 20%;
+    justify-content: center;
+    align-items: center;
+}
 
